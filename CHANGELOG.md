@@ -5,7 +5,7 @@ Built for a real client who tested every release on their own PC.
 
 ---
 
-## v2.0 — Oct 8, 2026 · fixes from the first field test
+## v2.0 · fixes from the first field test
 
 **What the client reported after testing v1.0 in the real game:**
 > "It finds a target, attacks, uses the skill and kills it… then it doesn't loot and just stands there.
@@ -32,7 +32,7 @@ Built for a real client who tested every release on their own PC.
 
 ---
 
-## v1.0 — Oct 5, 2026 · loot + the client's exact rules
+## v1.0 · loot + the client's exact rules
 
 - **Loot:** after each kill, wait 0.5 s and press Pick Up several times. New damage interrupts it, and the pending presses carry over to the next kill.
 - **Client's rotation as the default config:** search key with a fallback, attack, skill while target > 50 %, loot at 0 %, sit below 50 % HP until full, potion below 30 % during a fight.
@@ -48,7 +48,7 @@ Built for a real client who tested every release on their own PC.
 
 ---
 
-## v0.1 — Oct 5, 2026 · first prototype
+## v0.1 · first prototype
 
 - Screen capture → health-bar reader (OpenCV) → state machine → keyboard output.
 - Loop: find target, attack, potion when low, rest when no fight.
