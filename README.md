@@ -1,6 +1,6 @@
-# Vision Desktop Agent
+# Vision Desktop Agent — a computer-vision game bot
 
-A desktop agent that plays an MMO **only by looking at the screen and pressing keys** — the way a person does.
+An **MMO farming bot** (desktop agent) that plays **only by looking at the screen and pressing keys** — the way a person does.
 It reads health bars with computer vision, decides with a state machine, and is validated against a
 **game simulator that reproduces the failures seen on a real user's PC**.
 
@@ -113,7 +113,7 @@ python agent.py --calibrar # redo calibration
 
 ## Resumen en español
 
-Agente de escritorio que juega un MMO **solo mirando la pantalla y apretando teclas**, como una persona.
+**Bot de farmeo para un MMO** (agente de escritorio) que juega **solo mirando la pantalla y apretando teclas**, como una persona.
 Lee las barras de vida con visión por computadora, decide con una máquina de estados y se valida contra
 un **simulador del juego que reproduce las fallas que aparecieron en la PC de un usuario real**.
 
