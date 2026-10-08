@@ -1,4 +1,4 @@
-# Vision Desktop Agent — a computer-vision game bot
+# Vision Game Bot
 
 An **MMO farming bot** (desktop agent) that plays **only by looking at the screen and pressing keys** — the way a person does.
 It reads health bars with computer vision, decides with a state machine, and is validated against a
