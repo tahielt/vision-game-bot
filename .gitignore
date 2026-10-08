@@ -1,0 +1,5 @@
+calibracion.json
+agent.log
+debug/
+__pycache__/
+*.pyc
