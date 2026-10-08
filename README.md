@@ -7,7 +7,7 @@ It reads health bars with computer vision, decides with a state machine, and is 
 > 🇦🇷 [Resumen en español](#resumen-en-español) más abajo.
 
 - **No memory reading, no packet injection, no game files touched.** Screen capture in, keyboard events out.
-- Built for a real client and iterated from field feedback (v1 → v2).
+- Built for a real client and iterated from field feedback (v0.1 → v1.0 → v2.0). See the [CHANGELOG](CHANGELOG.md) for what broke in the field and how it was fixed.
 - Pure-Python logic that runs and is tested **without Windows and without the game**.
 
 ---

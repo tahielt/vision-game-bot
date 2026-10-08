@@ -1,4 +1,4 @@
-"""Vision Desktop Agent — agente que juega un MMO leyendo la pantalla.
+"""Vision Game Bot — agente que juega un MMO leyendo la pantalla.
 
 Mira la pantalla (barras de HP) y aprieta teclas de la barra de atajos del juego,
 como lo haría una persona. No modifica ni lee la memoria del juego.
@@ -23,7 +23,7 @@ import numpy as np
 from brain import Brain, RUNNING
 from vision import bar_fraction, sample_fill_color
 
-VERSION = "1.0"
+VERSION = "2.0"
 APP_DIR = os.path.dirname(sys.executable if getattr(sys, "frozen", False) else os.path.abspath(__file__))
 CONFIG_PATH = os.path.join(APP_DIR, "config.json")
 CALIB_PATH = os.path.join(APP_DIR, "calibracion.json")
@@ -313,7 +313,7 @@ def main():
     import mss
     win = wait_for_game(cfg)
     controls = Controls(cfg)
-    log.info(f"Vision Desktop Agent v{VERSION}")
+    log.info(f"Vision Game Bot v{VERSION}")
     log.info(f"Listo. Poné al personaje en la zona de farm y apretá {cfg['hotkey_iniciar_pausar'].upper()} "
              f"para iniciar/pausar. {cfg['hotkey_salir'].upper()} para salir.")
 
@@ -367,7 +367,7 @@ def wait_enter():
 
 
 if __name__ == "__main__":
-    print("=" * 52 + f"\n  Vision Desktop Agent v{VERSION} — juega leyendo la pantalla\n" + "=" * 52)
+    print("=" * 52 + f"\n  Vision Game Bot v{VERSION} — juega leyendo la pantalla\n" + "=" * 52)
     try:
         main()
     except KeyboardInterrupt:
